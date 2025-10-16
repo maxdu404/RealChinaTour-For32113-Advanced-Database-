@@ -1,0 +1,642 @@
+[
+  {
+    "productCode": "HN-001",
+    "availability": 1,
+    "price": "183.05",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:40:06.577919Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 0,
+    "price": "214.74",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:44:06.577935Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": 2,
+    "price": "163.08",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:44:06.577945Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": 1,
+    "price": "218",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:39:06.577956Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": 8,
+    "price": "$196.48",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:39:06.577965Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-006",
+    "availability": 1,
+    "price": "$160.39",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:44:06.577975Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ2-007",
+    "availability": 0,
+    "price": "162.20",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:45:06.577984Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-008",
+    "availability": "0",
+    "price": "$220",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T12:01:06.577999Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-009",
+    "availability": 5,
+    "price": "166",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:41:06.578010Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-010",
+    "availability": "8",
+    "price": "188",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:38:06.578021Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-011",
+    "availability": 3,
+    "price": "197",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:37:06.578031Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-012",
+    "availability": 4,
+    "price": "211",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T11:57:06.578040Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-013",
+    "availability": 9,
+    "price": "203.75",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:11:06.578049Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-014",
+    "availability": "0",
+    "price": "187.89",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T13:42:06.578057Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "SYD-015",
+    "availability": "6",
+    "price": "$180.98",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:03:06.578066Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-001",
+    "availability": 1,
+    "price": "$190.40",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:37:06.578075Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 9,
+    "price": "210",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:11:06.578083Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": "10",
+    "price": "169.32",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:40:06.578091Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": 0,
+    "price": "177.96",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:36:06.578100Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": 5,
+    "price": "213.28",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:52:06.578108Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-006",
+    "availability": 6,
+    "price": "210.54",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T12:36:06.578116Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ2-007",
+    "availability": 5,
+    "price": "176",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578124Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-008",
+    "availability": 3,
+    "price": "$170.50",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T12:19:06.578133Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-009",
+    "availability": "8",
+    "price": "$188.96",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:28:06.578141Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-010",
+    "availability": 4,
+    "price": "168.60",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:46:06.578150Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-011",
+    "availability": 7,
+    "price": "212",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T13:19:06.578158Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-012",
+    "availability": 1,
+    "price": "213",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578167Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-013",
+    "availability": 10,
+    "price": "$179",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:20:06.578180Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-014",
+    "availability": "4",
+    "price": "176",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:41:06.578192Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "SYD-015",
+    "availability": 8,
+    "price": "$168.49",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:42:06.578200Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-001",
+    "availability": 9,
+    "price": "$192",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:46:06.578209Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 1,
+    "price": "170.74",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:56:06.578217Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": 5,
+    "price": "202.77",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:24:06.578226Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": "7",
+    "price": "178.62",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:43:06.578234Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": 2,
+    "price": "197.02",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:54:06.578244Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-006",
+    "availability": 7,
+    "price": "164",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:41:06.578253Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ2-007",
+    "availability": 9,
+    "price": "190.48",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:36:06.578261Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-008",
+    "availability": 1,
+    "price": "191.96",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:39:06.578269Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-009",
+    "availability": "6",
+    "price": "172.49",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:52:06.578278Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-010",
+    "availability": 8,
+    "price": "170.39",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:37:06.578286Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-011",
+    "availability": 7,
+    "price": "165.86",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:45:06.578294Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-012",
+    "availability": 10,
+    "price": "206.28",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:44:06.578302Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-013",
+    "availability": 9,
+    "price": "$198",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:42:06.578311Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-014",
+    "availability": 6,
+    "price": "187",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:57:06.578319Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "SYD-015",
+    "availability": 6,
+    "price": "214.91",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:58:06.578327Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-001",
+    "availability": 0,
+    "price": "193",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578335Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 0,
+    "price": "202.13",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:40:06.578350Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": 8,
+    "price": "170",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:16:06.578358Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": 4,
+    "price": "$200",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:39:06.578367Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": 10,
+    "price": "219",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T11:46:06.578375Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-006",
+    "availability": 9,
+    "price": "197.39",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:43:06.578384Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ2-007",
+    "availability": 2,
+    "price": "160.45",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:38:06.578392Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-008",
+    "availability": 9,
+    "price": "218.69",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:25:06.578402Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-009",
+    "availability": 2,
+    "price": "191.58",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:45:06.578410Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-010",
+    "availability": 8,
+    "price": "165.31",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T13:26:06.578418Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-011",
+    "availability": 9,
+    "price": "163.17",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:39:06.578427Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-012",
+    "availability": 9,
+    "price": "185.26",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:37:06.578435Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-013",
+    "availability": 4,
+    "price": "194",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T13:58:06.578443Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-014",
+    "availability": "9",
+    "price": "$189",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:37:06.578453Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "SYD-015",
+    "availability": 4,
+    "price": "175.42",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T13:48:06.578462Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-001",
+    "availability": 2,
+    "price": "202.05",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:45:06.578470Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 2,
+    "price": "209.30",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:05:06.578479Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": 10,
+    "price": "198",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578487Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": "1",
+    "price": "187.84",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:40:06.578495Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": 7,
+    "price": "$191.83",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:41:06.578511Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-006",
+    "availability": 8,
+    "price": "162.46",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:01:06.578522Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ2-007",
+    "availability": 5,
+    "price": "208",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:05:06.578531Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-008",
+    "availability": 10,
+    "price": "171.70",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:46:06.578539Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-009",
+    "availability": "10",
+    "price": "164.08",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578548Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "CD-010",
+    "availability": "4",
+    "price": "161",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T11:54:06.578556Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-011",
+    "availability": 1,
+    "price": "$167.20",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T11:46:06.578565Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-012",
+    "availability": 2,
+    "price": "188.02",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:54:06.578573Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-013",
+    "availability": "4",
+    "price": "164.44",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T12:42:06.578581Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-014",
+    "availability": "4",
+    "price": "$164.16",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:39:06.578590Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "SYD-015",
+    "availability": "1",
+    "price": "206",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:22:06.578599Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HN-001",
+    "availability": "0",
+    "price": "194",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:36:06.578608Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "XZ-002",
+    "availability": 0,
+    "price": "200",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T13:30:06.578616Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-003",
+    "availability": 7,
+    "price": "184.23",
+    "currency": "AUD",
+    "lastUpdate": "2025-10-13T14:46:06.578624Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "GZ-004",
+    "availability": 6,
+    "price": "209.08",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:42:06.578636Z",
+    "source": "OTA"
+  },
+  {
+    "productCode": "HK-005",
+    "availability": "6",
+    "price": "219.82",
+    "currency": "aud",
+    "lastUpdate": "2025-10-13T14:39:06.578646Z",
+    "source": "OTA"
+  }
+]

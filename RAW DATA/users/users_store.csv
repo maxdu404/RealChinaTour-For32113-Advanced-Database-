@@ -1,0 +1,121 @@
+crm_id,name,tel,email_address,created_local,store_code,status,source
+st_0001,Mary Ferguson,(02) 7921 7174,mary98@example.com,05/10/2025 07:10,SYD01,Active,Store
+st_0002,JULIE ROBERTS,(02) 7733 2945,,07/10/2025 06:20,MEL01,Active,Store
+st_0003,Mackenzie Rogers,+852 6255 7701,mackenzie90@example.com,04/10/2025 08:17,SYD01,Active,Store
+st_0004,Renee Blair,(02) 7157 7245,renee87@example.com,08/10/2025 00:54,SYD01,Active,Store
+st_0005,Cassandra Harrell,(02) 9928 1615,cassandra55@example.com,08/10/2025 04:59,MEL01,Prospect,Store
+st_0006,James Goodman,+1-148-769-6393,james56@example.com,11/10/2025 20:34,SYD01,Active,Store
+st_0007,OSCAR HOWARD,+86 18276153966,oscar37@example.com,12/10/2025 01:03,MEL01,Active,Store
+st_0008,Anna Davidson,+1 958 321 9719,anna8@example.com,12/10/2025 00:08,MEL01,Active,Store
+st_0009,Joel Lara,+852 9758 1724,joel27@example.com,07/10/2025 15:49,SYD01,Active,Store
+st_0010,Trevor Peterson,(191)965-7013x2902,,07/10/2025 03:56,MEL01,Active,Store
+st_0011,Rachael Pearson,(02) 2784 6997,rachael28@example.com,04/10/2025 07:18,MEL01,Active,Store
+st_0012,Adrian Padilla,(02) 3354 9465,adrian56@example.com,06/10/2025 11:28,MEL01,Prospect,Store
+st_0013,DESTINY STRICKLAND,(02) 1909 8624,destiny49@example.com,06/10/2025 08:13,MEL01,Active,Store
+st_0014,Shawn Ramirez,(02) 0580 0851,shawn35@example.com,12/10/2025 13:52,MEL01,Active,Store
+st_0015,Grant Phillips,+44 7403696566,grant80@example.com,05/10/2025 09:25,MEL01,Prospect,Store
+st_0016,Ashley Hicks,(02) 6683 2723,ashley31@example.com,07/10/2025 13:59,SYD01,Active,Store
+st_0017,Adam Foster,(02) 8656 2422,adam88@example.com,11/10/2025 20:40,SYD01,Active,Store
+st_0018,Alexis Baker,+44 7010276212,alexis34@example.com,07/10/2025 19:22,MEL01,Active,Store
+st_0019,Kimberly Snyder DVM,(02) 6796 9278,kimberly59@example.com,08/10/2025 19:09,SYD01,Active,Store
+st_0020,TAYLOR GRIFFITH,(02) 6876 5326,taylor65@example.com,05/10/2025 02:20,SYD01,Active,Store
+st_0021,KYLE NGUYEN,+44 7909738468,kyle6@example.com,10/10/2025 21:36,MEL01,Active,Store
+st_0022,Natalie Bautista,N/A,natalie94@example.com,12/10/2025 23:38,SYD01,Prospect,Store
+st_0023,Thomas Oconnor,(02) 9500 9751,thomas55@example.com,05/10/2025 23:36,SYD01,Active,Store
+st_0024,James Hayes,(02) 9712 8478,james44@example.com,11/10/2025 00:10,MEL01,Active,Store
+st_0025,Kyle Beard,(02) 1891 3718,kyle69@example.com,05/10/2025 12:58,MEL01,Active,Store
+st_0026,MELISSA JACKSON,+852 9490 5807,melissa47@example.com,13/10/2025 00:30,MEL01,Prospect,Store
+st_0027,Joshua Taylor,+852 7879 5654,joshua82@example.com,03/10/2025 16:24,MEL01,Active,Store
+st_0028,Jessica Ramirez,+852 4209 4940,jessica71@example.com,05/10/2025 06:08,SYD01,Active,Store
+st_0029,Jessica Garcia,0412-128-1,jessica96@example.com,12/10/2025 09:58,MEL01,Prospect,Store
+st_0030,Curtis Williams,+86 14429444019,curtis7@example.com,09/10/2025 17:21,MEL01,Active,Store
+st_0031,Joy Meyer,(02) 2927 5243,joy89@example.com,12/10/2025 02:14,MEL01,Active,Store
+st_0032,Andrew Fernandez,(02) 7280 5129,,11/10/2025 15:17,MEL01,Prospect,Store
+st_0033,James Hayes,(02) 2766 3723,james44@example.com,09/10/2025 03:53,MEL01,Active,Store
+st_0034,JACLYN GRIFFIN,001-504-102-7674,jaclyn32@example.com,13/10/2025 13:40,MEL01,Active,Store
+st_0035,Vanessa Salazar,N/A,vanessa73@example.com,09/10/2025 15:48,SYD01,Prospect,Store
+st_0036,FRANK FLETCHER,(02) 7836 6742,frank38@example.com,09/10/2025 12:23,SYD01,Active,Store
+st_0037,Daniel Ayala,(02) 8604 7658,daniel70@example.com,12/10/2025 14:33,MEL01,Active,Store
+st_0038,Erin Young,N/A,erin18@example.com,12/10/2025 01:02,SYD01,Active,Store
+st_0039,Dana Chapman,(02) 0185 6945,dana10@example.com,09/10/2025 10:22,SYD01,Active,Store
+st_0040,GRANT PHILLIPS,N/A,grant80@example.com,06/10/2025 03:00,SYD01,Active,Store
+st_0041,Charles Lee,(02) 4414 9673,charles56@example.com,12/10/2025 09:58,SYD01,Active,Store
+st_0042,Anna Hardy,001-938-525-8001x0618,anna20@example.com,12/10/2025 07:11,MEL01,Active,Store
+st_0043,CHRISTOPHER PALMER,+61 3009 109 3,christopher34@example.com,09/10/2025 15:21,MEL01,Active,Store
+st_0044,Travis Vega,(02) 9111 9269,travis35@example.com,05/10/2025 18:08,SYD01,Active,Store
+st_0045,Margaret Hawkins DDS,(02) 2124 4717,margaret4@example.com,04/10/2025 01:23,SYD01,Active,Store
+st_0046,K. Wells,(02) 4654 2140,,10/10/2025 12:47,SYD01,Prospect,Store
+st_0047,Jennifer Kirby,(02) 6650 4427,jennifer36@example.com,07/10/2025 12:06,SYD01,Active,Store
+st_0048,GERALD THOMAS,739-627-1286,gerald8@example.com,08/10/2025 02:09,SYD01,Active,Store
+st_0049,William Mendoza,N/A,william96@example.com,07/10/2025 11:17,SYD01,Active,Store
+st_0050,Gary Wilson,N/A,gary51@example.com,13/10/2025 09:15,MEL01,Active,Store
+st_0051,James Goodman,(02) 3917 4101,james56@example.com,08/10/2025 14:50,SYD01,Active,Store
+st_0052,Andre Rivera,(02) 1947 0720,andre90@example.com,03/10/2025 18:42,MEL01,Active,Store
+st_0053,HEIDI STARK,(02) 0642 5690,heidi65@example.com,11/10/2025 20:03,SYD01,Active,Store
+st_0054,AUSTIN JOSEPH,N/A,,08/10/2025 01:48,SYD01,Active,Store
+st_0055,Richard Parker,+1 877 661 8306,richard34@example.com,07/10/2025 07:26,SYD01,Active,Store
+st_0056,Corey Tucker,(02) 7198 5546,corey17@example.com,13/10/2025 09:32,SYD01,Prospect,Store
+st_0057,Cheryl Williams,1585174328,cheryl82@example.com,11/10/2025 21:17,SYD01,Active,Store
+st_0058,Steven Wallace,0412-320-3,steven50@example.com,06/10/2025 08:00,SYD01,Active,Store
+st_0059,Carlos Harris,(02) 0937 6184,carlos95@example.com,13/10/2025 04:46,MEL01,Prospect,Store
+st_0060,Brittany Long,+852 7870 0505,brittany99@example.com,13/10/2025 10:01,MEL01,Active,Store
+st_0061,Nicholas Grant,(02) 0613 8782,nicholas67@example.com,05/10/2025 15:41,SYD01,Active,Store
+st_0062,J. Kelley,(02) 9310 2707,james53@example.com,11/10/2025 07:28,MEL01,Prospect,Store
+st_0063,Fred Wong,+1-032-020-4179x291,fred55@example.com,09/10/2025 07:42,SYD01,Active,Store
+st_0064,Andrew Allen,(02) 1179 9313,andrew91@example.com,07/10/2025 11:12,MEL01,Prospect,Store
+st_0065,Patrick Watson,(565)198-2530x92511,patrick57@example.com,08/10/2025 16:02,SYD01,Active,Store
+st_0066,L. Williams,(02) 4262 5827,leslie98@example.com,05/10/2025 13:03,MEL01,Active,Store
+st_0067,CONNOR KING,(02) 3902 1962,connor42@example.com,10/10/2025 11:17,SYD01,Prospect,Store
+st_0068,J. RAMIREZ,+852 0710 0219,jessica71@example.com,10/10/2025 02:23,SYD01,Active,Store
+st_0069,K. Martinez,672-324-8763x2909,kelli94@example.com,06/10/2025 10:41,MEL01,Active,Store
+st_0070,Chad Neal,(02) 2791 4560,chad23@example.com,06/10/2025 23:45,MEL01,Active,Store
+st_0071,Ronald Foster,(02) 8331 8195,ronald1@example.com,11/10/2025 13:07,SYD01,Active,Store
+st_0072,Patricia Smith,N/A,patricia69@example.com,11/10/2025 01:34,SYD01,Active,Store
+st_0073,M. Cole,(02) 8837 3403,mark28@example.com,05/10/2025 20:56,MEL01,Active,Store
+st_0074,James Payne Jr.,(02) 1277 2200,james61@example.com,10/10/2025 13:49,MEL01,Active,Store
+st_0075,Eileen Armstrong,+1-543-645-9701x0822,eileen52@example.com,12/10/2025 07:04,SYD01,Active,Store
+st_0076,Jessica Martinez,+1 078 113 7995,jessica93@example.com,04/10/2025 02:24,SYD01,Active,Store
+st_0077,Erin Young,(02) 6353 1531,erin18@example.com,07/10/2025 20:10,SYD01,Active,Store
+st_0078,Claudia Wallace,636.317.9706,claudia9@example.com,10/10/2025 23:44,SYD01,Active,Store
+st_0079,Cassandra Harrell,N/A,cassandra55@example.com,10/10/2025 10:25,SYD01,Prospect,Store
+st_0080,W. Kramer,(02) 2397 2652,william90@example.com,11/10/2025 10:52,MEL01,Prospect,Store
+st_0081,Andrew Harper,(02) 7354 3520,andrew2@example.com,08/10/2025 10:36,MEL01,Active,Store
+st_0082,Richard Parker,+1 904 217 7625,richard34@example.com,04/10/2025 03:32,SYD01,Active,Store
+st_0083,Michael Holmes,(02) 3492 9298,michael21@example.com,06/10/2025 20:44,SYD01,Active,Store
+st_0084,Nicholas Grant,+1 316 873 9774,nicholas67@example.com,06/10/2025 10:25,SYD01,Active,Store
+st_0085,ANTHONY HOFFMAN,N/A,anthony24@example.com,08/10/2025 00:46,MEL01,Active,Store
+st_0086,ABIGAIL OWENS,(02) 0633 5693,,07/10/2025 00:00,MEL01,Prospect,Store
+st_0087,Luis Fitzgerald,(02) 9290 6007,luis90@example.com,05/10/2025 20:05,SYD01,Active,Store
+st_0088,M. Gray,N/A,maurice46@example.com,12/10/2025 12:25,SYD01,Prospect,Store
+st_0089,Michael Santos,+86 18068671773,michael81@example.com,03/10/2025 23:01,SYD01,Active,Store
+st_0090,MR. JEFFREY CARR,(02) 1806 3254,mr.1@example.com,10/10/2025 08:20,MEL01,Active,Store
+st_0091,P. Morrow,(02) 3107 4279,patricia85@example.com,11/10/2025 13:23,SYD01,Active,Store
+st_0092,Tammy Little,(02) 9077 2625,tammy59@example.com,10/10/2025 09:06,MEL01,Prospect,Store
+st_0093,Frank Wright,(02) 7016 5804,frank43@example.com,09/10/2025 12:05,MEL01,Active,Store
+st_0094,Jason Diaz,N/A,jason82@example.com,09/10/2025 06:53,MEL01,Active,Store
+st_0095,Charles Lee,N/A,charles56@example.com,05/10/2025 00:58,SYD01,Active,Store
+st_0096,Lauren Foster,(498)931-9508x50165,lauren96@example.com,05/10/2025 19:50,SYD01,Active,Store
+st_0097,Miss Patricia Gibson,N/A,miss78@example.com,04/10/2025 20:03,SYD01,Active,Store
+st_0098,Kimberly Scott,(02) 7905 5281,kimberly85@example.com,10/10/2025 10:44,MEL01,Active,Store
+st_0099,Michael Gonzalez,+1-325-381-7933,michael85@example.com,09/10/2025 03:48,SYD01,Active,Store
+st_0100,Jacqueline Mcmahon,(02) 5548 6401,jacqueline97@example.com,12/10/2025 16:07,MEL01,Active,Store
+st_0101,SUSAN MURRAY MD,(577)881-7884x795,susan15@example.com,11/10/2025 19:57,SYD01,Active,Store
+st_0102,Andrew Mitchell,(02) 1371 1624,andrew13@example.com,05/10/2025 20:08,MEL01,Active,Store
+st_0103,Curtis Williams,+86 11124127238,curtis7@example.com,07/10/2025 16:31,SYD01,Active,Store
+st_0104,Nicholas Grant,(02) 0468 2756,nicholas67@example.com,09/10/2025 05:53,MEL01,Prospect,Store
+st_0105,JESSE JENSEN,(02) 7043 1038,jesse11@example.com,06/10/2025 04:29,MEL01,Active,Store
+st_0106,JENNIFER CLARK,+1-569-557-9887x7492,jennifer29@example.com,05/10/2025 02:54,SYD01,Active,Store
+st_0107,SHELLY ALEXANDER,(02) 4243 7540,shelly65@example.com,04/10/2025 20:45,SYD01,Active,Store
+st_0108,K. Watson,N/A,,07/10/2025 16:34,MEL01,Active,Store
+st_0109,Jim Newton,(02) 2547 2928,,07/10/2025 23:08,MEL01,Active,Store
+st_0110,Alison Short,(02) 4222 2310,alison38@example.com,08/10/2025 14:53,SYD01,Active,Store
+st_0111,LAURIE POWERS,+852 5927 4523,laurie37@example.com,09/10/2025 18:32,SYD01,Active,Store
+st_0112,Anthony Jones,+1-055-257-8284,anthony72@example.com,06/10/2025 10:05,SYD01,Active,Store
+st_0113,Amber Perez,067-275-2088,amber12@example.com,09/10/2025 00:49,MEL01,Prospect,Store
+st_0114,Ian Smith,+852 5474 9297,ian30@example.com,06/10/2025 20:40,SYD01,Active,Store
+st_0115,Dr. Alicia Powell,(02) 5170 2814,dr.63@example.com,09/10/2025 05:03,SYD01,Active,Store
+st_0116,Kenneth Daniels,6937515093,kenneth73@example.com,09/10/2025 08:37,SYD01,Prospect,Store
+st_0117,Katherine Doyle,(02) 9834 3018,katherine36@example.com,10/10/2025 15:45,MEL01,Prospect,Store
+st_0118,Kelli Martinez,186.375.9980x562,kelli94@example.com,04/10/2025 08:25,SYD01,Active,Store
+st_0119,James Kelley,001-656-504-5547x813,james53@example.com,10/10/2025 16:50,SYD01,Active,Store
+st_0120,EILEEN ARMSTRONG,001-767-426-6299x1234,eileen52@example.com,10/10/2025 16:49,MEL01,Active,Store

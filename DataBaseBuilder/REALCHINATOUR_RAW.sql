@@ -22,6 +22,7 @@ CREATE SCHEMA IF NOT EXISTS STAR;    -- analytics / reporting layer
 -- 4. Create 3 main RAW tables for semi-structured data (no overdesign)
 USE SCHEMA RAW;
 
+
 -- Users from multiple channels (JSON/CSV/XML → VARIANT)
 CREATE OR REPLACE TABLE RAW_USERS (
   data VARIANT,
@@ -59,6 +60,7 @@ SELECT OBJECT_CONSTRUCT(*), 'WEBSITE', 'users_website.csv' FROM LOAD_USERS_WEBSI
 INSERT INTO RAW_USERS (data, src_system, src_file)
 SELECT OBJECT_CONSTRUCT(*), 'WHATSAPP', 'users_whatsapp.json' FROM LOAD_USERS_WHATSAPP;
 
+
 -- === ORDERS ===
 INSERT INTO RAW_ORDERS (data, src_system, src_file)
 SELECT OBJECT_CONSTRUCT(*), 'STORE', 'orders_store.csv' FROM LOAD_ORDERS_STORE;
@@ -79,14 +81,3 @@ SELECT OBJECT_CONSTRUCT(*), 'PARTNER', 'inventory_partner.csv' FROM LOAD_INV_PAR
 
 INSERT INTO RAW_INVENTORY (data, src_system, src_file)
 SELECT OBJECT_CONSTRUCT(*), 'OTA', 'inventory_ota.json' FROM LOAD_INV_OTA_JSON;
-
-
--- 4.3 Data volume checks
-
--- Basic count per main table
-SELECT 'RAW_USERS' AS table_name, COUNT(*) AS record_count FROM RAW_USERS;
-SELECT 'RAW_ORDERS' AS table_name, COUNT(*) AS record_count FROM RAW_ORDERS;
-SELECT 'RAW_INVENTORY' AS table_name, COUNT(*) AS record_count FROM RAW_INVENTORY;
-
-
-

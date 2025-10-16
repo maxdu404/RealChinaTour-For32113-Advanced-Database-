@@ -1,9 +1,11 @@
-
--- ============================================================
--- 5. USER DOMAIN CLEANING (Unified Customer View)
--- ============================================================
 USE DATABASE REALCHINATOURS_DB;
 CREATE SCHEMA IF NOT EXISTS SILVER;
+
+/* ============================================================
+   FINAL VW_CUSTOMER_UNIFIED (Simplified & Optimized)
+   - For cleaned datasets (already standardized phone/email)
+   - Maintains all logic: dedup, confidence, priority, key hashing
+============================================================ */
 
 CREATE OR REPLACE VIEW SILVER.VW_CUSTOMER_UNIFIED AS
 WITH
@@ -15,7 +17,6 @@ WITH
 ============================================================ */
 
 -- === WhatsApp users (JSON with nested canonical_person) ===
--- === WhatsApp users (flat JSON after removing canonical_person) ===
 WHATSAPP AS (
   SELECT
     data:VARIANT_COL:wa_id::string                          AS user_id,
@@ -43,25 +44,22 @@ WHATSAPP AS (
 -- === Physical Store CRM users (CSV with C1–C5 columns) ===
 STORE AS (
   SELECT
-    data:C1::string                                        AS user_id,         -- CRM ID
-    TRIM(data:C2::string)                                  AS full_name_raw,   -- Name
-    LOWER(TRIM(data:C4::string))                           AS email_raw,       -- Email address
-    data:C3::string                                        AS phone_raw,       -- Telephone number
-    'en-AU'                                                AS locale_raw,
-    NULL::string                                           AS consent_raw,
-    -- Convert Sydney local time → UTC → NTZ, handle multiple formats
+    data:CRM_ID::string              AS user_id,        
+    TRIM(data:NAME::string)          AS full_name_raw,  
+    LOWER(TRIM(data:EMAIL_ADDRESS::string)) AS email_raw, 
+    data:TEL::string                 AS phone_raw,
+    'en-AU'                          AS locale_raw,
+    NULL::string                     AS consent_raw,
     CONVERT_TIMEZONE('Australia/Sydney','UTC',
       COALESCE(
-        TRY_TO_TIMESTAMP_NTZ(data:C5::string, 'DD/MM/YYYY HH24:MI:SS'),
-        TRY_TO_TIMESTAMP_NTZ(data:C5::string, 'D/M/YYYY HH24:MI:SS'),
-        TRY_TO_TIMESTAMP_NTZ(data:C5::string, 'YYYY-MM-DD HH24:MI:SS'),
-        TRY_TO_TIMESTAMP_NTZ(data:C5::string)  -- fallback auto-detect
+        TRY_TO_TIMESTAMP_NTZ(data:CREATED_LOCAL::string, 'DD/MM/YYYY HH24:MI:SS'),
+        TRY_TO_TIMESTAMP_NTZ(data:CREATED_LOCAL::string) 
       )
-    )::timestamp_ntz                                       AS created_utc,
-    NULL::timestamp_ntz                                    AS updated_utc,
-    NULL::timestamp_ntz                                    AS last_seen_utc,
-    'STORE'                                                AS src_system,
-    'users_store.csv'                                      AS src_file
+    )::timestamp_ntz                 AS created_utc,
+    NULL::timestamp_ntz              AS updated_utc,
+    NULL::timestamp_ntz              AS last_seen_utc,
+    'STORE'                          AS src_system,
+    'users_store.csv'                AS src_file
   FROM RAW.RAW_USERS
   WHERE src_system = 'STORE'
 ),
@@ -161,22 +159,21 @@ FROM UNIONED
 ============================================================ */
 ENRICHED AS (
   SELECT
-    -- Generate raw composite key and hashed person_key
-    COALESCE(
-      IFF(email_norm IS NOT NULL, 'E:'||email_norm, NULL),
-      IFF(phone_norm IS NOT NULL, 'P:'||phone_norm, NULL),
-      IFF(user_id IS NOT NULL, 'ID:'||src_system||':'||user_id, NULL),
-      'F:'||NVL(LOWER(full_name_raw),'')||':T:'||NVL(TO_VARCHAR(last_seen_utc,'YYYY-MM-DD"T"HH24:MI:SS'),'1970-01-01')
-    ) AS person_key_raw,
+    -- same person_key_raw generate logic
+    CASE 
+      WHEN email_norm IS NOT NULL THEN 'E:' || email_norm
+      WHEN phone_norm IS NOT NULL THEN 'P:' || phone_norm
+      ELSE 'ID:' || src_system || ':' || NVL(user_id, '')
+    END AS person_key_raw,
 
-       TO_VARCHAR(SHA2(
-      COALESCE(
-        'E:'||email_norm,
-        'P:'||phone_norm,
-        'ID:'||src_system||':'||NVL(user_id,''),
-        'F:'||NVL(LOWER(full_name_raw),'')||':T:'||NVL(TO_VARCHAR(last_seen_utc),'1970-01-01')
-      ), 256)) AS person_key,
-
+    -- make the length same
+    TO_VARCHAR(SHA2(
+      CASE 
+        WHEN email_norm IS NOT NULL THEN 'E:' || email_norm
+        WHEN phone_norm IS NOT NULL THEN 'P:' || phone_norm
+        ELSE 'ID:' || src_system || ':' || NVL(user_id, '')
+      END
+    , 256)) AS person_key,
 
     full_name_raw AS full_name,
     email_norm AS email,
@@ -223,8 +220,6 @@ QUALIFY ROW_NUMBER() OVER (
     last_seen_utc DESC NULLS LAST,
     src_rank ASC
 ) = 1;
-
-
 ------------------------------------------------------------------------------------------------------------------------------------
 -- INVENTORY DOMAIN CLEANING (Unified Inventory View)
 -- Consolidates stock data from all sources, standardizes formats, 
@@ -592,5 +587,3 @@ SELECT
   load_ts
 
 FROM ORDERS_WITH_NORMALIZED_PHONE;
-
-

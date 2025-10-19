@@ -269,22 +269,29 @@ WITH V AS (
     CURRENCY,
     LAST_UPDATED_UTC,
     LOWER(TRIM(SRC_SYSTEM)) AS SRC_SYSTEM,
-    -- Sync delay in seconds
+    FRESHNESS_FLAG,   -- include the freshness classification from Silver
+    CONFLICT_FLAG,    -- optional but useful for analytics
+    SOURCE_COVERAGE,  -- optional coverage metric
     DATEDIFF('second', LAST_UPDATED_UTC, CURRENT_TIMESTAMP()) AS SYNC_DELAY_SEC
   FROM SILVER.VW_INVENTORY_UNIFIED
 )
 SELECT
-  CURRENT_TIMESTAMP() AS SNAPSHOT_TS,     -- Snapshot timestamp
-  p.PRODUCT_ID AS PRODUCT_ID,             -- Product business key
-  c.CHANNEL_ID AS CHANNEL_ID,             -- Channel business key (lowercase)
+  CURRENT_TIMESTAMP() AS SNAPSHOT_TS,            -- snapshot timestamp (fact load time)
+  p.PRODUCT_ID AS PRODUCT_ID,                    -- product business key
+  c.CHANNEL_ID AS CHANNEL_ID,                    -- channel business key (source system)
   v.AVAILABLE_QTY AS AVAIL_QTY,
   v.PRICE::NUMBER(10,2) AS PRICE,
   v.CURRENCY AS CURRENCY,
   v.SYNC_DELAY_SEC::NUMBER AS SYNC_DELAY_SEC,
-  v.LAST_UPDATED_UTC AS LAST_UPDATED_UTC  -- Original source timestamp
+  v.LAST_UPDATED_UTC AS LAST_UPDATED_UTC,        -- original source timestamp
+  v.FRESHNESS_FLAG AS STATUS,                    -- <=== carry freshness into fact
+  v.CONFLICT_FLAG AS CONFLICT_FLAG,              -- optional: mark inconsistent source data
+  v.SOURCE_COVERAGE AS SOURCE_COVERAGE           -- optional: how many sources contributed
 FROM V v
-LEFT JOIN STAR.DIM_PRODUCT p ON v.PRODUCT_ID = p.PRODUCT_ID
-LEFT JOIN STAR.DIM_CHANNEL c ON v.SRC_SYSTEM = c.CHANNEL_ID;
+LEFT JOIN STAR.DIM_PRODUCT p 
+  ON v.PRODUCT_ID = p.PRODUCT_ID
+LEFT JOIN STAR.DIM_CHANNEL c 
+  ON v.SRC_SYSTEM = c.CHANNEL_ID;
 
 -- ============================================================
 -- PERSON IDENTITY BRIDGE TABLE
@@ -301,4 +308,6 @@ SELECT
   MATCH_CONFIDENCE,
   CURRENT_TIMESTAMP() AS LOADED_AT
 FROM SILVER.VW_CUSTOMER_UNIFIED;
+
+
 
